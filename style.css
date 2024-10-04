@@ -1,0 +1,139 @@
+html {
+    font-size: 62.5%; 
+}
+body {
+    line-height: 1.5;
+    background-color: var(--color-lilac);
+}
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--color-slate-800);
+}
+:root {
+    --border-radius-sm: 0.5rem;
+
+    /* colors */
+    --color-slate-800: rgb(30 41 59);
+    --color-slate-500: rgb(100 116 139);;
+    --color-pink: #E9679B;
+    --color-freesia: #F8CD4F;
+    --color-lilac: #cfcfcf;
+    --color-blue: #2fa7a7;
+}
+.blue {
+    color: var(--color-blue);
+}
+.pink {
+    color: var(--color-pink);
+}
+.bg-blue {
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-slate-500);
+    font-weight: 500;
+}
+p,a {
+    font-size: 1.6rem;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2rem;
+}
+.text-slate-500 {
+    color: var(--color-slate-500);
+}
+
+/* font */
+.font-varela {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* brand */
+.brand {
+    display: flex;
+    justify-self: start ;
+    width: 100%;
+}
+.brand > * {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+.brand_link {
+    color: var(--color-pink);
+    /* font-weight: bold; */
+}
+
+/* modifire */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn {
+    /* border: none; */
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius-sm);
+    /* border: 1px solid var(--color-slate-800); */
+    border: 1px solid whitesmoke;
+    color: black;
+    background-color: whitesmoke;
+}
+
+/* input */
+.input {
+    border-radius: var(--border-radius-sm);
+    padding: 0.75rem 1rem;
+    border: none;
+    /* border: 1px solid var(--color-slate-800); */
+}
+
+/* stepwise */
+.stepwise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.stepwise__content > div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.stepwise__content--title { 
+    gap: 0.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* stepwise content */
+.stepwise_content {
+    display: flex;
+    flex-direction: row;   
+}
+
+/* stepwise results */
+.stepwise__result {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    /* gap: 8rem; */
+}
+.stepwise__result > p {
+    color: var();
+}

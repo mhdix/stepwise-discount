@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stepwise discount</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="stepwise container font-varela">
+        <div class="stepwise__header">
+            <h1 class="stepwise_title">Stepwise Discount</h1>
+            <div class="brand">
+                <p class="brand_title"></p>
+                <a class="brand_link" href="https://mhdix.ir" target="_blank">Create By&nbsp;:&nbsp;mhdix.ir</a>
+            </div>
+        </div>
+        <div class="stepwise__content stepwise__content--title">
+            <p>Add Price :</p>
+            <div>
+                <input type="text" class="input ">
+                <button class="btn text-slate-800">submit</button>
+            </div> 
+        </div> 
+        <div class="stepwise__result stepwise__content--title">
+            <span>
+                <p class="text-slate-500">Amount</p>
+                <h2 class="pink">1010$</h2>
+            </span>
+            <span>
+                <p class="text-slate-500">Percentage</p>
+                <h2>3%</h2>
+            </span>
+            <!-- <input type="text" class="input"> -->
+        </div>
+        <div class="stepwise__result stepwise__content--title">
+            <span>
+                <p class="text-slate-500">Discounted amount</p>
+                <h2 class="blue">956$</h2>
+            </span>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
